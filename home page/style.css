@@ -1,0 +1,135 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+body{
+    background-color: #e3bae6;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+.box{
+    background-color: #fdfdfd;
+    display: flex;
+    flex-direction:column;
+    padding: 25px 25px;
+    border-radius: 20px;
+    /* box-shadow: 0 0 128px 0 rgba(0,0,0,0,0.1),
+                           0 32px 64px -48px rgba(0,0,0,0,0.5); */
+        box-shadow: 0 0 128px;
+}
+.form-box
+{
+    width: 350px;
+    margin: 0px 10px;
+}
+.form-box header{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solide #e6e6e6;
+    margin-bottom: 10px;
+
+}
+.form-box form .field{
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+.form-box form .input input{
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border:  1px solid #ccc;
+    outline: none;
+}
+.btn{
+    background: rgba(76, 68, 182, 0.808);
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border:  1px solid #ccc;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 10px;
+
+
+}
+.btn:hover{
+    opacity: 0.82;
+}
+.submit{
+    width: 100%;
+}
+.link{
+    margin-bottom: 10px;
+}
+
+/* --------------------------home */
+.nav{
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 10px;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 0 10px;
+    font-weight: 900;
+    text-decoration: none;
+    color: blueviolet;
+
+}
+.right-links a{
+    padding: 0 3px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+.main-box{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.main-box .top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bottom{
+    width: 100px;
+    height: 100px;
+}
+@media only screen and (max-width:840px){
+    .main-box.top{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+     .top.box{ 
+        margin: 10px;
+    }
+    .bottom{
+        margin-top: 0;
+    } 
+
+}
+    
